@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7315386192000169132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7315386192000169133}
+  - component: {fileID: 7315386192000169135}
+  m_Layer: 0
+  m_Name: Control
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7315386192000169133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7315386192000169132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.516651, y: 4.19199, z: -54.87237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7315386192000169135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7315386192000169132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33473f39ad39e144ba7f31b023fb7a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mostrarGizmos: 0
+  generador: {fileID: 0}
+  colorCasos:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0.35169482, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  bordes: []
+  piso: []
+  jugador: {fileID: 0}
+  powerUpVida: {fileID: 2965974064888757551, guid: 3e1151f9310d7674c8882f0b8daf7782, type: 3}
+  cuantasVidas: 20
+  posiblesParedes:
+  - posibles: []
+    activo: 0
+  - posibles:
+    - {fileID: 338049037642340196, guid: fda224811a1b62648a71e01f26a09c6d, type: 3}
+    - {fileID: 919132149155446097, guid: b5a33ef95e3eed145ac4a1bf75d3009c, type: 3}
+    - {fileID: 919132149155446097, guid: 2c088b4a7b57a074f8dc25e2c81ab6ab, type: 3}
+    - {fileID: 919132149155446097, guid: 42004cf1a4abd324b9b96daec387c1a8, type: 3}
+    activo: 1
+  - posibles:
+    - {fileID: 919132149155446097, guid: f40eda306ddb4c94a8fa120f1ba93f67, type: 3}
+    - {fileID: 919132149155446097, guid: a61a0a69885feea4c838543a06b0c9cc, type: 3}
+    - {fileID: 919132149155446097, guid: 0bfa540902e1c3f4d875e6bea05e4d60, type: 3}
+    activo: 0
+  - posibles:
+    - {fileID: 919132149155446097, guid: 1ce389c732e96984eb655a8ad3bcbccd, type: 3}
+    activo: 1
+  - posibles:
+    - {fileID: 3125438649491758345, guid: 754e6be3b94b8514b8106b9f95aea636, type: 3}
+    - {fileID: 919132149155446097, guid: 76eab3b136f60414c91fce8677673c50, type: 3}
+    - {fileID: 919132149155446097, guid: 45b32a54dfd042e479476c5ef41bc5e2, type: 3}
+    activo: 1
+  - posibles: []
+    activo: 0
+  - posibles:
+    - {fileID: 919132149155446097, guid: d3b68d393aba75a4e91be2cc0607f8d2, type: 3}
+    - {fileID: 919132149155446097, guid: 3306db84c0deed4428d0566b81232f1d, type: 3}
+    - {fileID: 919132149155446097, guid: 0ea3ea8d4ca4edf4aa8306754e2e6bab, type: 3}
+    activo: 1
+  - posibles: []
+    activo: 0
+  - posibles:
+    - {fileID: 7829136501845471000, guid: ec6e4b2b3791ee242a2c06245e8e0031, type: 3}
+    - {fileID: 919132149155446097, guid: 90f2fdbcd6055e54e8166567ba710e90, type: 3}
+    - {fileID: 919132149155446097, guid: af258a54725602b45b8a4d98fe7a2bad, type: 3}
+    activo: 1
+  - posibles:
+    - {fileID: 919132149155446097, guid: af8d26c688e2e114faaa81248ac3a723, type: 3}
+    - {fileID: 919132149155446097, guid: 2bd6279461855a448bf196874c6eaff5, type: 3}
+    - {fileID: 919132149155446097, guid: 0874f0afb109c1b4b95c5fb3d68b5cd5, type: 3}
+    activo: 1
+  - posibles: []
+    activo: 0
+  - posibles: []
+    activo: 0
+  - posibles:
+    - {fileID: 8954507527075710916, guid: 315d09f78ac76ef4c98588b83a807a35, type: 3}
+    - {fileID: 919132149155446097, guid: fdefc5be5b5646e46a333d2f6269d388, type: 3}
+    activo: 1
+  - posibles:
+    - {fileID: 919132149155446097, guid: a52c720b7f3e5924d9bd5c49954e30a0, type: 3}
+    - {fileID: 919132149155446097, guid: 84a6098479fe5f44daa5a2193bfaecb4, type: 3}
+    - {fileID: 919132149155446097, guid: 624204bb8f8eea44c9888284b6a765f1, type: 3}
+    activo: 1
+  - posibles:
+    - {fileID: 919132149155446097, guid: 010f859e7421a3e4ba89c3055f909a47, type: 3}
+    - {fileID: 919132149155446097, guid: 743b10428bfcfa44dadeb0d7706d363f, type: 3}
+    - {fileID: 919132149155446097, guid: 84eb2886299394d46bc71ec43f2f580e, type: 3}
+    activo: 1
+  - posibles: []
+    activo: 0
+  casos0:
+    posibles:
+    - {fileID: 919132149155446097, guid: 69be83a3efe294d45945eee636ee7ac5, type: 3}
+    - {fileID: 919132149155446097, guid: d14e769f005c5884a8c3fd3ea525e212, type: 3}
+    - {fileID: 919132149155446097, guid: c10b5e32c5542d443be2f968319eb940, type: 3}
+    - {fileID: 919132149155446097, guid: 3046494ee887f5e47ae8370aa2c9c782, type: 3}
+    - {fileID: 919132149155446097, guid: 45094de2fd2a56c439a9a953460632fc, type: 3}
+    - {fileID: 919132149155446097, guid: 1b345c5d56b169642b86f750bd786963, type: 3}
+    - {fileID: 919132149155446097, guid: fa116a674e7a50249b00fbcd11328270, type: 3}
+    - {fileID: 919132149155446097, guid: 37af98e839d9168448325f50a314511a, type: 3}
+    - {fileID: 919132149155446097, guid: 76a121381c6b6014c87c07b8e9391b28, type: 3}
+    - {fileID: 919132149155446097, guid: f5f835d60056d0e4ba70408298333e31, type: 3}
+    - {fileID: 919132149155446097, guid: 702f2c135fd2f394d90d5bdb38331ac4, type: 3}
+    - {fileID: 919132149155446097, guid: eaf29afd85b5f794caeef5f0f9ac4ba1, type: 3}
+    - {fileID: 634035091731882340, guid: 5278785a18367784896ea80b51725ae4, type: 3}
+    - {fileID: 5025443418755831053, guid: 0387a2a8e4fd78f468458eba44622e90, type: 3}
+    activo: 1
+  padreEntorno: {fileID: 0}
+  posibleCaso0: 0.01
+  posibleParedes: 0.2
+  enemigos:
+  - {fileID: 5108465892107990088, guid: 616decddab0a8f945bcda453e873822e, type: 3}
+  - {fileID: 5108465892107990088, guid: 86f8532fe2fd7394bb10bbba9fe161c7, type: 3}
+  - {fileID: 5108465892107990088, guid: ed14a5e76e0f9794f8a17629b9c6e76d, type: 3}
+  - {fileID: 5108465892107990088, guid: db3daf4196dc94b489d66a08d8df71e9, type: 3}
+  enemigoPpal:
+  - {fileID: 5108465892107990088, guid: 2ca01e9a2a77ef04d9bb0929782090f6, type: 3}
+  - {fileID: 5108465892107990088, guid: 9d349dd21857be44f8a51ac43c549e5e, type: 3}
+  posibleEnemigos: 0.04
+  padreEnemigos: {fileID: 0}
