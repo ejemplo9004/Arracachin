@@ -49,7 +49,7 @@ public class Poblador : MonoBehaviour
 
 		poblado = true;
 
-		//jugador.position = piso[Random.Range(0, piso.Count)].posicion + Vector3.up*1.2f;
+		jugador.position = piso[Random.Range(0, piso.Count)].posicion;
 		//Portal.singleton.transform.position = piso[Random.Range(0, piso.Count)].posicion;
 		//Portal.singleton.transform.transform.Rotate(Vector3.up * Random.Range(0, 4) * 90);
 		//Instantiate(enemigoPpal[Random.Range(0, enemigoPpal.Length)], piso[Random.Range(0, piso.Count)].posicion, Quaternion.identity);
@@ -119,9 +119,6 @@ public class Poblador : MonoBehaviour
 
 	void Poblar()
     {
-
-		//////////////////////////// OJO!
-		return;
 
 		for (int i = 0; i < piso.Count; i++)
 		{

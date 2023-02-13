@@ -30,11 +30,8 @@ public class MapGenerator : MonoBehaviour
 	}
 
 	void Update()
-	{
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			GenerateMap();
-		}
+	{ 
+
 	}
 
 	public void ActualizarUI(string mensaje, float t)

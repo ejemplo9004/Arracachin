@@ -18,7 +18,7 @@ public class MovimientoPersonaje : MonoBehaviour
     {
         if (Mathf.Abs(joystick.Horizontal) + Mathf.Abs(joystick.Vertical) > 0.02f)
 		{
-            transform.forward = pivoteCamara.forward;
+            transform.forward = Vector3.Lerp(transform.forward, pivoteCamara.forward, Time.deltaTime*10);
             transform.Translate((Vector3.forward * (Input.GetAxis("Vertical") + joystick.Vertical) + Vector3.right * (Input.GetAxis("Horizontal") + joystick.Horizontal)) * velocidad * Time.deltaTime);
         }
         
